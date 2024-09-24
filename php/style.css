@@ -1,0 +1,37 @@
+body {
+    background-color: #7dc7ec; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #3261b9; /* Color de los encabezados */
+}
+
+a {
+    color: #3261b9; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0;
+}
+
+input[type="text"], input[type="submit"], select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px; /* Ancho máximo */
+}
+
+form {
+    margin-bottom: 20px;
+}
